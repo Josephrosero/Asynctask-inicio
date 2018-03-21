@@ -65,7 +65,7 @@ onClick();
         @Override
         protected Boolean doInBackground(Void... voids) {
 
-            //  Actividad en segundo plano
+            //  Actividad en segundo plano ....
             for (int i = 0; i <= 10; i++) {
                 Unsegundo();
                 publishProgress(i * 25); // progreso de la ejecucion
